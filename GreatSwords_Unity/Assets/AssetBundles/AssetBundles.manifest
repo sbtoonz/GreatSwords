@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 3652785364
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: greatswords
+      Dependencies: {}
