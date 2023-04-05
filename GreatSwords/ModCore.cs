@@ -13,7 +13,7 @@ namespace GreatSwords
     public class GreatSwordsMod : BaseUnityPlugin
     {
         private const string ModName = "GreatSwords";
-        internal const string ModVersion = "0.0.1";
+        internal const string ModVersion = "0.0.2";
         private const string ModGUID = "com.littleroomdev.greatswords";
         private static Harmony harmony = null!;
         internal static Item GreatSwordSilver;

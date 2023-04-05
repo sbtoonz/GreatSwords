@@ -1,0 +1,29 @@
+[config]
+schemaVersion = "0.0.1"
+
+[package]
+namespace = "sbtoonz"
+name = "Great_Swords"
+versionNumber = "0.0.1"
+description = "Some Big Ole Swords..."
+websiteUrl = "https://www.littleroom.dev"
+containsNsfwContent = false
+[package.dependencies]
+denikson-BepInExPack_Valheim = "5.4.2102"
+
+
+[build]
+icon = "./icon.png"
+readme = "./README.md"
+outdir = "./"
+
+[[build.copy]]
+source = "./plugins"
+target = "./plugins"
+
+
+[publish]
+repository = "https://thunderstore.io"
+communities = [ "valheim", ]
+categories = [  ]
+
