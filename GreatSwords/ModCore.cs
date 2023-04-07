@@ -13,7 +13,7 @@ namespace GreatSwords
     public class GreatSwordsMod : BaseUnityPlugin
     {
         private const string ModName = "GreatSwords";
-        internal const string ModVersion = "0.0.2";
+        internal const string ModVersion = "0.0.3";
         private const string ModGUID = "com.littleroomdev.greatswords";
         private static Harmony harmony = null!;
         internal static Item GreatSwordSilver;
@@ -41,7 +41,7 @@ namespace GreatSwords
             GreatSwordBronze.RequiredItems.Add("Wood",2);
             GreatSwordBronze.RequiredItems.Add("LeatherScraps",4);
 
-            GreatSwordBronze.Configurable = Configurability.Recipe;
+            GreatSwordBronze.Configurable = Configurability.Full;
 
             GreatSwordIron.Name.English("Iron 2H Sword");
             GreatSwordIron.Description.English("Cleave your enemies in twain.");
@@ -50,7 +50,7 @@ namespace GreatSwords
             GreatSwordIron.RequiredItems.Add("Wood",2);
             GreatSwordIron.RequiredItems.Add("LeatherScraps",4);
 
-            GreatSwordIron.Configurable = Configurability.Recipe;
+            GreatSwordIron.Configurable = Configurability.Full;
 
 
             GreatSwordSilver.Name.English("Silver 2H Sword");
@@ -61,7 +61,7 @@ namespace GreatSwords
             GreatSwordSilver.RequiredItems.Add("Wood",2);
             GreatSwordSilver.RequiredItems.Add("LeatherScraps",4);
 
-            GreatSwordSilver.Configurable = Configurability.Recipe;
+            GreatSwordSilver.Configurable = Configurability.Full;
 
 
             GreatSwordBlackMetal.Name.English("BlackMetal 2H Sword");
@@ -71,7 +71,7 @@ namespace GreatSwords
             GreatSwordBlackMetal.RequiredItems.Add("FineWood",2);
             GreatSwordBlackMetal.RequiredItems.Add("JuteRed",4);
 
-            GreatSwordBlackMetal.Configurable = Configurability.Recipe;
+            GreatSwordBlackMetal.Configurable = Configurability.Full;
 
         }
     }
